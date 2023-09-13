@@ -12,7 +12,7 @@
   background: url(../img/bg.jpg) no-repeat center;
 }
 
-.board {
+#board {
   background: linear-gradient(rgb(187, 255, 187), rgb(255, 255, 134));
   width: 90vmin;
   height: 92vmin;
@@ -24,9 +24,13 @@
 }
 
 .head {
-  background-color: red;
+  background-color: blue;
+}
+
+.snake {
+  background-color: black;
 }
 
 .food {
-  background-color: purple;
+  background-color: red;
 }
